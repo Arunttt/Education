@@ -1,35 +1,7 @@
 <template>
 
 <div class="wid">
-<header>
- <nav class="navbar"style="
-    position: fixed;
-    z-index: 2;
-	background-color:#179bd7;background: linear-gradient(45deg, #503aca 53%, #ea34ff 53%);margin: -60px 0px 0px 0px;
-">
 
-    <div class="navbar-container container">
-      <input type="checkbox" name="" id="">
-      <div class="hamburger-lines">
-        <span class="line line1"></span>
-        <span class="line line2"></span>
-        <span class="line line3"></span>
-      </div>
-      <ul class="menu-items"style="flex-flow:wrap;">
-        <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/about">About</router-link></li>
-        <li><router-link to="/">Apply</router-link></li>
-        <li><router-link to="/">Contact</router-link></li>&nbsp;&nbsp;&nbsp;
-		<button type="button" class="btn btn-danger">Click</button>
-      </ul>
-	  
-	  <div class="down">
-      <img src="../assets/down.png"alt="123"style="    width: 42%;
-   ">
-	  </div>
-    </div>
-  </nav>
- </header> 	
 
  <div class="type">
 <div >
@@ -299,9 +271,10 @@ height: 61%;
     border-radius: 0px;
 }
 .bd{
+    margin-top: 20px;
 background-image:url('https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Natural-Wood-Panels-Simple-Background-Image.jpeg');
 height: 600px;
-    margin: 4px 0px 0px 0px;
+    
 	text-align:center;
 	font-family:serif;
 	color:white;
@@ -565,182 +538,7 @@ border:double;
 logo{
  font: 15px Arial, sans-serif;
  }
- .navbar input[type="checkbox"],
-.navbar .hamburger-lines {
-  display: none;
-}
 
-.container {
-  max-width: 1200px;
-  width: 90%;
-  margin: auto;
-}
-
-.navbar {
-
-  box-shadow: 0px 5px 10px 0px #aaa;
-  position: fixed;
-  width: 100%;
-  background: antiquewhite;
-  color: #000;
-  opacity: 0.85;
-  z-index: 100;
-}
-
-.navbar-container {
-  display: flex;
-  justify-content: space-between;
-  height: 64px;
-  align-items: center;
-}
-
-.menu-items {
-  order: 2;
-  display: flex;
-      font-family: Serif;
-}
-.logo {
-  order: 1;
-  font-size: 2.3rem;
-      font-family: auto;
-}
-
-.menu-items li {
-  list-style: none;
-  margin-left: 1.5rem;
-  font-size: 1.3rem;
-}
-
-.navbar a {
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s ease-in-out;
-}
-
-.navbar a:hover {
-  color: red;
-}
-@media (max-width: 768px) {
-.navbar>.container,{
-	display: flow-root;
-}
-}
-@media (max-width: 768px) {
-  .navbar {
-    opacity: 0.95;
-  }
-
-  .navbar-container input[type="checkbox"],
-  .navbar-container .hamburger-lines {
-    display: block;
-  }
-
-  .navbar-container {
-    display: block;
-    position: relative;
-    height: 64px;
-  }
-
-  .navbar-container input[type="checkbox"] {
-    position: absolute;
-    display: block;
-    height: 32px;
-    width: 30px;
-    top: 20px;
-    left: 20px;
-    z-index: 5;
-    opacity: 0;
-    cursor: pointer;
-  }
-
-  .navbar-container .hamburger-lines {
-    display: block;
-    height: 28px;
-    width: 35px;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .navbar-container .hamburger-lines .line {
-    display: block;
-    height: 4px;
-    width: 100%;
-    border-radius: 10px;
-    background: #333;
-  }
-
-  .navbar-container .hamburger-lines .line1 {
-    transform-origin: 0% 0%;
-    transition: transform 0.3s ease-in-out;
-  }
-
-  .navbar-container .hamburger-lines .line2 {
-    transition: transform 0.2s ease-in-out;
-  }
-
-  .navbar-container .hamburger-lines .line3 {
-    transform-origin: 0% 100%;
-    transition: transform 0.3s ease-in-out;
-  }
-
-  .navbar .menu-items {
-      height: 474%;
-    flex-flow: wrap-reverse;
-    padding-top: 8px;
-    background: black;
-    height: 100vh;
-    max-width: 300px;
-    transform: translate(-150%);
-    display: flex;
-    flex-direction: column;
-    margin-left: -40px;
-    padding-left: 40px;
-    transition: transform 0.5s ease-in-out;
-    box-shadow: 5px 0px 10px 0px #aaa;
-    overflow: scroll;
-  }
-
-  .navbar .menu-items li {
-    margin-bottom: 1.8rem;
-    font-size: 1.1rem;
-    font-weight: 500;
-  }
-
-  .logo {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    font-size: 2.5rem;
-  }
-
-  .navbar-container input[type="checkbox"]:checked ~ .menu-items {
-    transform: translateX(0);
-  }
-
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
-    transform: rotate(45deg);
-  }
-
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
-    transform: scaleY(0);
-  }
-
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
-    transform: rotate(-45deg);
-  }
-}
-
-@media (max-width: 500px) {
-  .navbar-container input[type="checkbox"]:checked ~ .logo {
-    display: none;
-  }
-}
 .klu{
 font-family: serif;
 text-align:center;	

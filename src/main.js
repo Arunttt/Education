@@ -2,10 +2,11 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
+import header from './components/Header'
 import router from './router'
 
 Vue.config.productionTip = false
-
+Vue.component('myHeader', header)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

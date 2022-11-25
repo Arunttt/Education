@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+      <my-header></my-header>
+
 	<router-view />
 <!--	
 	  <boot />
@@ -11,9 +13,11 @@
 </template>
 
 <script>
+
 import boot from './components/boot.vue';
 import about from './components/about.vue';
 import contact from './components/contact.vue';
+import header from './components/Header';
 
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
