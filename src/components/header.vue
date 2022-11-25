@@ -18,7 +18,7 @@
         <li><router-link to="/about">About</router-link></li>
         <li><router-link to="/">Apply</router-link></li>
         <li><router-link to="/">Contact</router-link></li>&nbsp;&nbsp;&nbsp;
-		<button type="button" class="btn btn-danger">Click</button>
+		
       </ul>
 	  
 	  <div class="down">
@@ -30,6 +30,7 @@
  </header>
  </template>
  <style>
+ 
  logo{
  font: 15px Arial, sans-serif;
  }

@@ -4,7 +4,6 @@ import HomeView from '../Views/HomeView.vue'
 import AboutView from '../Views/AboutView'
 import ContactView from '../Views/ContactView'
 import ApplyView from '../Views/ApplyView'
-import HeaderView from '../Views/HeaderView'
 
 import Home from '../components/Home'
 
@@ -32,11 +31,7 @@ export default new Router({
       name: 'apply',
       component: ApplyView
 	 },
-	 {
-	  path: '/header',
-      name: 'header',
-      component: HeaderView
-	 },
+	 
 	 
   ]
 })

@@ -68,43 +68,8 @@
 
 
 
-<footer class="footer">
-    <div class="container">
-      <div class="row">
-	  
-        <div class="footer-col">
-          <h4>company</h4>
-          <ul>
-            <li><a href="#">Home</a></li><br>
-            <li><a href="#">About</a></li><br>
-            <li><a href="#">Gallery</a></li><br>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-       <div class="col-lg-6"> 
-        
-          <h4 class="clr">Get Help</h4><br>
-           <div class="hg">
-		   <p>Education Development Center (EDC) is a global nonprofit organization to improve education, promote health, and expand economic opportunity across the United States and in more than 80 other countries.</p>
-		   </div>
-        
-		</div>
-        <div class="footer-col">
-          <h4>follow us</h4>
-          <div class="social-links">
-          <!--  <a href="https://www.facebook.com/"><font-awesome-icon icon="fa-brands fa-facebook" /></a>-->
-            <a href="https://twitter.com/"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-            <a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-          </div>
-		 <a href="#" <img src="../assets/down.png"alt="123"style="    width: 42%;
-   "></a>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <div class="eg">
-  <p>Copyright © Your Website 2022</p>
-	</div>
+
+  
 	</div>
 </template>
 <script>
@@ -193,11 +158,7 @@ import contact from '../components/contact.vue'
 }
 }
 
-.eg{
-    color: white;
-    background-color: black;
-    text-align: center;
-}
+
 .yu{
 text-align:center;
 color:black;
@@ -479,6 +440,11 @@ text-align: justify;
 @media only screen and (max-width: 600px){
 .ay{
 width:116%;
+}
+}
+@media only screen and (max-width: 600px){
+.he{
+    margin: 0px -51px 0px 0px;
 }
 }
 </style>

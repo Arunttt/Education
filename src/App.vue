@@ -3,6 +3,7 @@
       <my-header></my-header>
 
 	<router-view />
+	<my-footer></my-footer>
 <!--	
 	  <boot />
   
@@ -18,6 +19,7 @@ import boot from './components/boot.vue';
 import about from './components/about.vue';
 import contact from './components/contact.vue';
 import header from './components/Header';
+import footer from './components/Footer'
 
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'

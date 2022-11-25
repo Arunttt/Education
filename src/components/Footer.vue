@@ -1,4 +1,5 @@
 <template>
+<div>
 <footer class="footer">
     <div class="container">
       <div class="row">
@@ -32,11 +33,14 @@
    "></a>
         </div>
       </div>
-	  <div class="eg">
+	  
+    </div>
+	
+  </footer>
+  <div class="eg">
   <p>Copyright © Your Website 2022</p>
 	</div>
-    </div>
-  </footer>
+  </div>
   </template>
   <style>
   .footer {
@@ -102,12 +106,6 @@
   color: #ffffff;
   background-color:blue;
 }
-.eg{
-    color: white;
-    background-color: black;
-    text-align: center;
-	margin:0px 0px 0px 0px;
-}
 
 /*responsive*/
 @media (max-width: 767px) {
@@ -130,6 +128,12 @@
 .clr{
     font-family: serif;
 	color:white;
+}
+.eg{
+    color: white;
+    background-color: black;
+    text-align: center;
+	margin:0px 0px 0px 0px;
 }
 
   </style>

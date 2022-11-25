@@ -51,6 +51,7 @@ import about from '../components/about.vue'
 <style>
 .df{
     background-color: honeydew;
+	    padding: 21px 0px 0px 0px;
 }
 .par{
 margin-top: 12px;
