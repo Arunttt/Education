@@ -26,8 +26,8 @@
           <h4>follow us</h4>
           <div class="social-links">
           <!--  <a href="https://www.facebook.com/"><font-awesome-icon icon="fa-brands fa-facebook" /></a>-->
-            <a href="https://twitter.com/"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-            <a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/"target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com"target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
           </div>
 		 <a href="#" <img src="../assets/down.png"alt="123"style="    width: 42%;
    "></a>
