@@ -72,91 +72,10 @@
   
 	</div>
 </template>
-<script>
-import contact from '../components/contact.vue'
-</script>
+
 <style>
-.footer {
-  background-color: #179bd7;
-  padding: 70px 0;
-}
-.footer-col {
-  width: 25%;
-  padding: 0 15px;
-}
-.footer-col h4 {
-    font-family: serif;
-  font-size: 18px;
-  color: white;
-  text-transform: capitalize;
-  margin-bottom: 35px;
-  font-weight: 800;
-  position: relative;
-}
-.footer-col h4::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  background-color: #e91e63;
-  height: 2px;
-  box-sizing: border-box;
-  width: 50px;
-}
-.footer-col ul li:not(:last-child) {
-  margin-bottom: 10px;
-}
-.footer-col ul li a :hover{
 
-}
-.footer-col ul li a {
-  font-size: 16px;
-  text-transform: capitalize;
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 600;
-  color: antiquewhit;
-  display: block;
-  transition: all 0.3s ease;
-}
-.footer-col ul li a:hover {
-  color: red;
-  padding-left: 8px;
-}
-.footer-col .social-links a {
-  display: inline-block;
-  height: 40px;
-  width: 40px;
-  background-color: black;
-  margin: 0 10px 10px 0;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 50%;
-  transition: all 0.5s ease;
-}
-.footer-col .social-links a:hover {
-  color: #ffffff;
-  background-color:blue;
-}
 
-/*responsive*/
-@media (max-width: 767px) {
-  .footer-col {
-    width: 50%;
-    margin-bottom: 30px;
-  }
-}
-@media (max-width: 574px) {
-  .footer-col {
-    width: 100%;
-  }
-}
-@media only screen and (max-width: 600px) {
-.navbar .menu-item{
-    height: 141px;
-    flex-flow: wrap-reverse;
-}
-}
 
 
 .yu{
@@ -273,10 +192,7 @@ font-weight: 800;
     font-family: Serif;
 	    font-size: 21px;
 }
-.clr{
-color:white;
-    font-family: Serif;
-}
+
 .hg{
 font-weight:500;
 color:white;
@@ -308,6 +224,9 @@ font-family:Serif;
     width: 99%;
     color: white;
 	    text-shadow: 2px 2px white;
+		background-size: cover;
+    background-position: center;
+    background-image: url(https://cutewallpaper.org/28/city-night-desktop-wallpaper/1474122581.jpg);
 }
 .responsive-map{
 overflow: hidden;
@@ -356,95 +275,15 @@ text-align: justify;
 }
 
 
-@media (max-width: 500px) {
-  .navbar-container input[type="checkbox"]:checked ~ .logo {
-    display: none;
-  }
-}
-.footer {
-    background: linear-gradient(45deg, #503aca 53%, #ea34ff 53%);
-  background-color: #179bd7;
-  padding: 70px 0;
-}
-.footer-col {
-  width: 25%;
-  padding: 0 15px;
-}
-.footer-col h4 {
-    font-family: Serif;
-  font-size: 18px;
-  color: white;
-  text-transform: capitalize;
-  margin-bottom: 35px;
-  font-weight: 800;
-  position: relative;
-}
-.footer-col h4::before {
-  content: "";
-  position: absolute;
-  left: 98px;
-  bottom: -10px;
-  background-color: #e91e63;
-  height: 2px;
-  box-sizing: border-box;
-  width: 50px;
-}
-.footer-col ul li:not(:last-child) {
-  margin-bottom: 10px;
-}
-.footer-col ul li a :hover{
 
-}
-.footer-col ul li a {
-  font-size: 16px;
-  text-transform: capitalize;
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 600;
-  color: antiquewhit;
-  display: block;
-  transition: all 0.3s ease;
-}
-.footer-col ul li a:hover {
-  color: red;
-  padding-left: 8px;
-}
-.footer-col .social-links a {
-  display: inline-block;
-  height: 40px;
-  width: 40px;
-  background-color: black;
-  margin: 0 10px 10px 0;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 50%;
-  transition: all 0.5s ease;
-}
-.footer-col .social-links a:hover {
-  color: #ffffff;
-  background-color:blue;
-}
-
-/*responsive*/
-@media (max-width: 767px) {
-  .footer-col {
-    width: 50%;
-    margin-bottom: 30px;
-  }
-}
-@media (max-width: 574px) {
-  .footer-col {
-    width: 100%;
-  }
-}
 @media only screen and (max-width: 600px){
 .ay{
-width:116%;
+
 }
 }
 @media only screen and (max-width: 600px){
-.he{
-    margin: 0px -51px 0px 0px;
+.login{
+width:277px;
 }
 }
 </style>
