@@ -16,8 +16,8 @@
       <ul class="menu-items"style="flex-flow:wrap;">
         <li><router-link to="/">Home</router-link></li>
         <li><router-link to="/about">About</router-link></li>
-        <li><router-link to="/">Apply</router-link></li>
-        <li><router-link to="/">Contact</router-link></li>&nbsp;&nbsp;&nbsp;
+        <li><router-link to="/apply">Apply</router-link></li>
+        <li><router-link to="/contact">Contact</router-link></li>&nbsp;&nbsp;&nbsp;
 		<button type="button" class="btn btn-danger">Click</button>
       </ul>
 	  

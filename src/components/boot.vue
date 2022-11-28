@@ -167,7 +167,7 @@
 
 @media only screen and (max-width: 600px) {
 .wid{
-width:115%;
+width:99%;
 }
 }
 @media only screen and (max-width: 600px) {
