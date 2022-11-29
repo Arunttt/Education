@@ -120,8 +120,8 @@
   }
 }
 .footer {
-    background: linear-gradient(45deg, #503aca 53%, #ea34ff 53%);
-  background-color: #179bd7;
+
+  background-color: black;
   padding: 52px 0;
   
 }

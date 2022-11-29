@@ -9,21 +9,29 @@
 <div class="container-fluid">
   <div class="row">
 <div class="bd"><br><br>
-<h1>Education Online</h1>
-<img src="../assets/e.png"alt="123"style="    width: 13%;
-   ">
-   <p>Education Development Center (EDC) is a global nonprofit organization to improve education,<br> promote health, and expand economic opportunity across the United States and in more than 80 other countries.</p>
-   <br>
-   <button type="button" class="btn btn-primary">Java</button>&nbsp;
-<button type="button" class="btn btn-secondary">HTML</button>&nbsp;
-<button type="button" class="btn btn-success">Css</button>&nbsp;
-<button type="button" class="btn btn-danger">Javascript</button>&nbsp;
-<button type="button" class="btn btn-warning">Bootstrap</button>
+<h1 class="mainhead">Education Online</h1>
+<!--<img src="../assets/e.png"alt="123"style="    width: 13%;
+   ">--><br><br>
+   <p>Education Development Center (EDC) is a global nonprofit organization to improve education,<br> promote health, and expand economic opportunity across the United States and in more than 80 other countries.</p>  
+   <br><br><br>
+   
+   <button type="button" class="btn btn-primary"style="    width: 6%;
+    height: 6%;">Java</button>&nbsp;
+<button type="button" class="btn btn-secondary"style="    width: 6%;
+    height: 6%;">HTML</button>&nbsp;
+<button type="button" class="btn btn-success"style="    width: 6%;
+    height: 6%;">Css</button>&nbsp;
+<button type="button" class="btn btn-danger"style="    width: 6%;
+    height: 6%;">Javascript</button>&nbsp;
+<button type="button" class="btn btn-warning"style="    width: 6%;
+    height: 6%;">Bootstrap</button>
    
 </div>  
      </div>
 </div>
 <br><br>
+
+<br>
 <div class="container">
 <div class="row">
 <div class="col-lg-4 col-sm-4 col-lg-6">
@@ -38,40 +46,79 @@
 </div>
 
 </div>
-</div><br><br>
-<div class="container">
-<div class="row">
-<div class="card-group">
-  <div class="card">
-    <img src="https://www.ionos.com/digitalguide/fileadmin/DigitalGuide/Teaser/html-tagst.jpg" class="hr" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">HTML</h5>
-      <p class="card-text">Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages.</p>
-      
-    </div>
-  </div><br>
-  <div class="card">
-    <img src="https://contentstatic.techgig.com/photo/93000110/what-makes-java-still-popular-among-developers.jpg?28608" class="op" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Java</h5>
-      <p class="card-text">Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages.</p>
-      
-    </div>
-  </div><br>
-  <div class="card">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjwgbOFVNnFbNjoCai-YmKGyPBlnrm6Le4Dpgt0wR4Tgwzi3fidyXwEUCet0bb-VZXc3k&usqp=CAU" class="rh" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Javascript</h5>
-      <p class="card-text">JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard. It has dynamic typing.</p>
-      
+</div><br>
+<hr class="hr-1">
+<!-- Topic Cards -->
+<div id="cards_landscape_wrap-2">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <a href="">
+          <div class="card-flyer">
+            <div class="text-box">
+              <div class="image-box">
+                <img src="https://www.ionos.com/digitalguide/fileadmin/DigitalGuide/Teaser/html-tagst.jpg" alt="" />
+              </div>
+              <div class="text-container">
+                <h6>HTML</h6>
+                <p>Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages.</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <a href="">
+          <div class="card-flyer">
+            <div class="text-box">
+              <div class="image-box">
+                <img src="https://blog.logrocket.com/wp-content/uploads/2022/08/new-css-style-queries.png" alt="" />
+              </div>
+              <div class="text-container">
+                <h6>Css</h6>
+                <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML  </p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <a href="">
+          <div class="card-flyer">
+            <div class="text-box">
+              <div class="image-box">
+                <img src="data:image/jpeg;base64,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" alt="" />
+              </div>
+
+              <div class="text-container">
+                <h6>Bootstrap</h6>
+                <p>Bootstrap is a free and open-source CSS framework directed at responsive, front-end web development.Bootstrap is an HTML, CSS and JS Library that.</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <a href="">
+          <div class="card-flyer">
+            <div class="text-box">
+              <div class="image-box">
+                <img src="https://t4.ftcdn.net/jpg/02/66/76/83/360_F_266768305_jxxjP3ivAYLHxbOejYQ4095SvaGfTjc3.jpg" alt="" />
+              </div>
+              <div class="text-container">
+                <h6>Javascript</h6>
+                <p>JavaScript often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
     </div>
   </div>
 </div>
 
-</div>
-</div>
 
-<div class="container">
+<!--<div class="container">
 <div class="row">
 <div class="col-lg-4 col-sm-4 col-lg-6">
 <div class="hl"> 
@@ -85,31 +132,10 @@
  <img src="https://freepngimg.com/thumb/categories/1463.png"style="width:80%"> 
     </div>
      </div>
-	 </div></div>
-</div></div><br>
+	 </div></div>-->
+</div></div>
 
-<div class="container">
-<div class="row">
-
-<div class="col-lg-4">
-<div class="frame">
-  <img src="https://media.istockphoto.com/id/1320882544/photo/glowing-light-bulb-and-book-or-text-book-with-futuristic-icon-self-learning-or-education.jpg?b=1&s=170667a&w=0&k=20&c=Ujv8_0TPyMaLFUzf_4b3klbuiUW3KQ2VdFrSGatFGXA=" />  
-</div>
-</div>
-<div class="col-lg-4">
-<div class="frame">
-  <img src="https://media.istockphoto.com/photos/elearning-online-education-or-internet-encyclopedia-concept-open-and-picture-id1263424631?b=1&k=20&m=1263424631&s=612x612&w=0&h=EJAv5q-L9GcPM7KVUngaapW67C_lNGmhRaYL-U58TWQ=" />  
-</div>
-</div>
-<div class="col-lg-4">
-<div class="frame">
-  <img src="https://thumbs.dreamstime.com/b/children-education-kid-read-book-school-boy-reading-books-dreaming-over-blackboard-background-92807607.jpg" />  
-</div>
-</div>
-
-	 </div></div>
-<br>
-<div class="fire">
+<!--<div class="fire">
 <h1 class="klu">Gallery</h1>
 <div class="container-fluid">
 <div class="row">
@@ -151,9 +177,13 @@
 </div>
 </div>
 </div>
-</div>
+</div>-->
   <br>
-  
+  <div class="container-fluid">
+ <div>
+        <iframe width="1300" height="435" src="https://www.youtube.com/embed/QeogOIzG2Is" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
 </div>
 
 </template>
@@ -161,6 +191,11 @@
 
 </script>
 <style scoped>
+.mainhead{
+    font-size: 75px;
+    text-shadow: 3px 0px red;
+    font-style: italic;
+}
 .wid{
 
 }
@@ -224,7 +259,7 @@ height: 61%;
 }
 .bd{
     margin-top: 20px;
-background-image:url('https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Natural-Wood-Panels-Simple-Background-Image.jpeg');
+background-image:url('https://www.uncsa.edu/admissions/img/banners/apply-now.jpg');
 height: 600px;
     
 	text-align:center;
@@ -464,6 +499,7 @@ background-color:antiquewhite;
 }
 div{
 //border-radius:40px;
+    background-color: #F5ECEA;
 
 }
 #hed{
@@ -577,5 +613,103 @@ background-image:url('http://protechtheme.com/edumart/images/inner-banner-bg.jpg
   .footer-col {
     width: 100%;
   }
+}
+/*----  Main Style  ----*/
+#cards_landscape_wrap-2 {
+  text-align: center;
+  background: #f7f7f7;
+  background-image:url('https://t4.ftcdn.net/jpg/03/22/38/65/360_F_322386576_QDruDTX3Uw0S5gPALUzPMdmWFq8laY8q.jpg');
+   background-size: cover;
+    background-position: center;
+    background-clip: text;
+}
+#cards_landscape_wrap-2 .container {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+#cards_landscape_wrap-2 a {
+  text-decoration: none;
+  outline: none;
+}
+#cards_landscape_wrap-2 .card-flyer {
+  border-radius: 5px;
+}
+#cards_landscape_wrap-2 .card-flyer .image-box {
+  background: #ffffff;
+  overflow: hidden;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+#cards_landscape_wrap-2 .card-flyer .image-box img {
+  -webkit-transition: all 0.9s ease;
+  -moz-transition: all 0.9s ease;
+  -o-transition: all 0.9s ease;
+  -ms-transition: all 0.9s ease;
+  width: 100%;
+  height: 200px;
+}
+#cards_landscape_wrap-2 .card-flyer:hover .image-box img {
+  opacity: 0.7;
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transform: scale(1.15);
+}
+#cards_landscape_wrap-2 .card-flyer .text-box {
+  text-align: center;
+  width:97%;
+}
+#cards_landscape_wrap-2 .card-flyer .text-box .text-container {
+  padding: 30px 18px;
+}
+#cards_landscape_wrap-2 .card-flyer {
+  background: #ffffff;
+  margin-top: 50px;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4);
+}
+#cards_landscape_wrap-2 .card-flyer:hover {
+  background: #fff;
+  box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  margin-top: 50px;
+}
+#cards_landscape_wrap-2 .card-flyer .text-box p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+#cards_landscape_wrap-2 .card-flyer .text-box h6 {
+  margin-top: 0px;
+  margin-bottom: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Roboto Black", sans-serif;
+  letter-spacing: 1px;
+  color: #00acc1;
+}
+hr.hr-1 {
+  border: 0;
+  height: 1px;
+      background-image: linear-gradient( to right, rgba(0, 0, 0, 0), rgba(15, 5, 18, 29.75), rgba(0, 0, 0, 0) );
+}
+@media only screen and (max-width: 600px) {
+iframe{
+    width: 98%;
+    height: 0%;
+}
 }
 </style>

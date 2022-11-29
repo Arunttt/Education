@@ -3,7 +3,7 @@
  <nav class="navbar"style="
     position: fixed;
     z-index: 2;
-	background-color:#179bd7;background: linear-gradient(45deg, #503aca 53%, #ea34ff 53%);margin: -60px 0px 0px 0px;
+	background-color:black;margin: -60px 0px 0px 0px;
 ">
 
     <div class="navbar-container container">
@@ -52,7 +52,7 @@
   width: 100%;
   background: antiquewhite;
   color: #000;
-  opacity: 0.85;
+  
   z-index: 100;
 }
 
