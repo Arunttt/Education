@@ -1,5 +1,5 @@
 <template>
-    <div class="ola">
+    <div class="ola"style="background-color:#F5ECEA;">
  
  <br>
  <div class="atm">

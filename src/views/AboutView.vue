@@ -43,6 +43,11 @@ PARTICIPATION</p>
 </div></div>
 </div>
 </div>
+<div class="container-fluid">
+ <div>
+        <iframe width="1300" height="335" src="https://www.youtube.com/embed/QeogOIzG2Is" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
 </div>
 </template>
 <script>
@@ -50,7 +55,7 @@ import about from '../components/about.vue'
 </script>
 <style>
 .df{
-    background-color: honeydew;
+    background-color: #F5ECEA;
 	    padding: 21px 0px 0px 0px;
 }
 .par{
@@ -79,5 +84,11 @@ margin:27px 0px 0px 0px;
 font-family: serif;
 text-align:center;	
 background-image:url('http://protechtheme.com/edumart/images/inner-banner-bg.jpg');
-}        
+}     
+@media only screen and (max-width: 600px) {
+iframe{
+    width: 98%;
+    height: 0%;
+}
+}   
 </style>
