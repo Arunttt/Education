@@ -1,221 +1,50 @@
 <template>
-   <header>
- <nav class="navbar"style="
-    position: fixed;
-    z-index: 2;
-	background-color:black;margin: -60px 0px 0px 0px;
-">
+  <div>
+  <b-navbar toggleable="lg" type="dark" variant="info">
+    <b-navbar-brand href="#">NavBar</b-navbar-brand>
 
-    <div class="navbar-container container">
-      <input type="checkbox" name="" id="">
-      <div class="hamburger-lines">
-        <span class="line line1"></span>
-        <span class="line line2"></span>
-        <span class="line line3"></span>
-      </div>
-      <ul class="menu-items"style="flex-flow:wrap;">
+    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+    <b-collapse id="nav-collapse" is-nav>
+      <b-navbar-nav>
+        <ul class="menu-items"style="flex-flow:wrap;">
         <li><router-link to="/">Home</router-link></li>
         <li><router-link to="/about">About</router-link></li>
         <li><router-link to="/apply">Apply</router-link></li>
         <li><router-link to="/contact">Contact</router-link></li>&nbsp;&nbsp;&nbsp;
-		
+		<button type="button" class="btn btn-danger">Click</button>
       </ul>
-	  
-	  <div class="down">
-      <img src="../assets/down.png"alt="123"class="bye"style="    width: 36%;
-   ">
-	  </div>
-    </div>
-  </nav>
- </header>
+      </b-navbar-nav>
+
+      <!-- Right aligned nav items -->
+      <b-navbar-nav class="ml-auto">
+        <b-nav-form>
+          <b-form-input size="sm" class="mr-sm-2" placeholder="Search"></b-form-input>
+          <b-button size="sm" class="my-2 my-sm-0" type="submit">Search</b-button>
+        </b-nav-form>
+
+        <b-nav-item-dropdown text="Lang" right>
+          <b-dropdown-item href="#">EN</b-dropdown-item>
+          <b-dropdown-item href="#">ES</b-dropdown-item>
+          <b-dropdown-item href="#">RU</b-dropdown-item>
+          <b-dropdown-item href="#">FA</b-dropdown-item>
+        </b-nav-item-dropdown>
+
+        <b-nav-item-dropdown right>
+          <!-- Using 'button-content' slot -->
+          <template #button-content>
+            <em>User</em>
+          </template>
+          <b-dropdown-item href="#">Profile</b-dropdown-item>
+          <b-dropdown-item href="#">Sign Out</b-dropdown-item>
+        </b-nav-item-dropdown>
+      </b-navbar-nav>
+    </b-collapse>
+  </b-navbar>
+</div>
  </template>
  <style>
  
- logo{
- font: 15px Arial, sans-serif;
- }
- .navbar input[type="checkbox"],
-.navbar .hamburger-lines {
-  display: none;
-}
+ 
 
-.container {
-  max-width: 1200px;
-  width: 90%;
-  margin: auto;
-}
-
-.navbar {
-
-  box-shadow: 0px 5px 10px 0px #aaa;
-  position: fixed;
-  width: 100%;
-  background: antiquewhite;
-  color: #000;
-  
-  z-index: 100;
-}
-
-.navbar-container {
-  display: flex;
-  justify-content: space-between;
-  height: 64px;
-  align-items: center;
-}
-
-.menu-items {
-  order: 2;
-  display: flex;
-      font-family: Serif;
-}
-.logo {
-  order: 1;
-  font-size: 2.3rem;
-      font-family: auto;
-}
-
-.menu-items li {
-  list-style: none;
-  margin-left: 1.5rem;
-  font-size: 1.3rem;
-}
-
-.navbar a {
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s ease-in-out;
-}
-
-.navbar a:hover {
-  color: red;
-}
-@media (max-width: 768px) {
-.navbar>.container,{
-	display: flow-root;
-}
-}
-@media (max-width: 768px) {
-  .navbar {
-    opacity: 0.95;
-  }
-
-  .navbar-container input[type="checkbox"],
-  .navbar-container .hamburger-lines {
-    display: block;
-  }
-
-  .navbar-container {
-    display: block;
-    position: relative;
-    height: 64px;
-  }
-
-  .navbar-container input[type="checkbox"] {
-  
-    display: block;
-    height: 32px;
-    width: 30px;
-    top: 20px;
-    left: 20px;
-    z-index: 5;
-    opacity: 0;
-    cursor: pointer;
-  }
-
-  .navbar-container .hamburger-lines {
-    display: block;
-    height: 28px;
-    width: 35px;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .navbar-container .hamburger-lines .line {
-    display: block;
-    height: 4px;
-    width: 100%;
-    border-radius: 10px;
-    background: #333;
-  }
-
-  .navbar-container .hamburger-lines .line1 {
-    transform-origin: 0% 0%;
-    transition: transform 0.3s ease-in-out;
-  }
-
-  .navbar-container .hamburger-lines .line2 {
-    transition: transform 0.2s ease-in-out;
-  }
-
-  .navbar-container .hamburger-lines .line3 {
-    transform-origin: 0% 100%;
-    transition: transform 0.3s ease-in-out;
-  }
-
-  .navbar .menu-items {
-      height: 474%;
-    flex-flow: wrap-reverse;
-    padding-top: 8px;
-    background: black;
-    height: 100vh;
-    max-width: 300px;
-    transform: translate(-150%);
-    display: flex;
-    flex-direction: column;
-    margin-left: -40px;
-    padding-left: 40px;
-    transition: transform 0.5s ease-in-out;
-    box-shadow: 5px 0px 10px 0px #aaa;
-    overflow: scroll;
-	 position: absolute;
-  }
-
-  .navbar .menu-items li {
-    margin-bottom: 1.8rem;
-    font-size: 1.1rem;
-    font-weight: 500;
-  }
-
-  .logo {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    font-size: 2.5rem;
-  }
-
-  .navbar-container input[type="checkbox"]:checked ~ .menu-items {
-    transform: translateX(0);
-	height: 164%;
-	margin-top: 62%;
-  }
-
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
-    transform: rotate(45deg);
-  }
-
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
-    transform: scaleY(0);
-  }
-
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
-    transform: rotate(-45deg);
-  }
-}
-
-@media (max-width: 500px) {
-  .navbar-container input[type="checkbox"]:checked ~ .logo {
-    display: none;
-  }
-}
-@media only screen and (max-width: 600px){
-.bye{
-float: right;
-}
-}
  </style>

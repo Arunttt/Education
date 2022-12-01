@@ -173,7 +173,7 @@ height: 61%;
     border-radius: 0px;
 }
 .bd{
-    margin-top: 20px;
+   
 background-image:url('https://www.uncsa.edu/admissions/img/banners/apply-now.jpg');
 height: 600px;
     
