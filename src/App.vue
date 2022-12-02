@@ -10,6 +10,7 @@
    <about />
    <contact />
 -->   
+<coursel />
   </div>
 </template>
 
@@ -20,7 +21,7 @@ import about from './components/about.vue';
 import contact from './components/contact.vue';
 import header from './components/Header';
 import footer from './components/Footer'
-
+import coursel from './components/coursel.vue';
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
@@ -29,10 +30,8 @@ import { RouterLink, RouterView } from 'vue-router'
 export default {
   name: 'App',
   components:{
+  coursel
   
-  contact,
-  boot,
-  about,
 //testi  
  },
  mounted(){
